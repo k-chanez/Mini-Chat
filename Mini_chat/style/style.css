@@ -1,0 +1,149 @@
+body {
+  background: #6a297e;
+}
+.box {
+  border: 1px solid #c4c4c4;
+  border-radius: 25px;
+  padding: 30px 25px 10px 25px;
+  background: linear-gradient(rgba(65, 65, 219, 0.5), rgba(134, 228, 212, 0.5));
+  margin: 30px auto;
+  width: 360px;
+}
+h1.box-logo {
+  text-decoration:none;
+
+}
+h1.box-login {
+  
+  border-radius: 25px;
+  background-image: url("../image/login.jpg") ; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 310px;
+  height: 110px;
+  padding: 50px ;
+  line-height: 80px;
+  font-size: 35px;
+  color: #689ff1;
+  text-align:center;
+  margin: -30px -25px 45px;
+}
+h1.box-singup {
+  border-radius: 25px;
+  background-image: url("../image/singup.jpg") ; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 310px;
+  height: 110px;
+  padding: 50px ;
+  line-height: 80px;
+  font-size: 35px;
+  color: #f2f7f8;
+  text-align:center;
+  margin: -30px -25px 45px;
+}
+.box-button-login {
+  border-radius: 25px;
+  background: #b150ac;
+  text-align: center;
+  cursor: pointer;
+  font-size: 19px;
+  width: 100%;
+  height: 51px;
+  padding: 0;
+  color: #fff;
+  border: 0;
+  outline:0;
+}
+.box-button-singup{
+  border-radius: 25px;
+  background: #80e9a3;
+  text-align: center;
+  cursor: pointer;
+  font-size: 19px;
+  width: 100%;
+  height: 51px;
+  padding: 0;
+  color: #fff;
+  border: 0;
+  outline:0;
+}
+.box-register
+{
+  text-align:center;
+  margin-bottom:0px;
+}
+.box-register a
+{
+  text-decoration:none;
+  font-size:12px;
+  color:rgb(229, 245, 242);
+}
+strong {
+  font-weight:bold;
+  font-size:20px;
+  padding: 5px;
+  line-height:45px;
+  border:2px solid #758f75;
+  border-radius:25px;
+  background-color: #b150ac;
+
+}
+
+.box-input {
+  font-size: 14px;
+  background: #fff;
+  border: 1px solid #ddd;
+  margin-bottom: 25px;
+  padding-left:10px;
+  border-radius: 5px;
+  width: 347px;
+  height: 50px;
+}
+.box-input:focus {
+    outline: none;
+    border-color:#5c7186;
+}
+.sucess{
+	text-align: center;
+	color: white;
+}
+.sucess a {
+	text-decoration: none;
+	color: #58aef7;
+}
+p.errorMessage {
+    background-color: #e66262;
+    border: #AA4502 1px solid;
+    padding: 5px 10px;
+    color: #FFFFFF;
+    border-radius: 3px;
+}
+.emoji {
+  min-width: 1.4em;
+  margin: 0.3em 0.4em;
+  text-align: center;
+}
+
+.emoji::after {
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.wave::after {
+  content: '✋';
+  --emoji: '👋';
+  animation-name: twoFrames;
+  animation-duration: 1s;
+}
+
+table{
+  border-collapse: collapse;
+  background:hsl(210, 58%, 47%);
+  margin: 0px 37% 45px;
+
+}
+
+td{
+  padding: 17px;
+  width: 25%;
+}
