@@ -1,0 +1,3 @@
+Ce projet est un mini chat en PHP avec une interface utilisateur simple et des fonctionnalités de connexion, inscription et envoi de messages. 
+Les utilisateurs peuvent se connecter à l'aide de leurs identifiants ou s'inscrire pour créer un nouveau compte. 
+Une fois connecté, l'utilisateur peut envoyer des messages et consulter l'historique des messages précédents.
