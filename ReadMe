@@ -19,7 +19,7 @@ git clone https://github.com/k-chanez/Mini-Chat
 
 Utilisation : 
 
-1. Accédez au fichier login.php pour accéder à la page de connexion. Si vous n'avez pas encore de compte, accédez au fichier register.php pour créer un nouveau compte.
+1. Accédez au fichier login.php pour accéder à la page de connexion. Si vous n'avez pas encore de compte, accédez au fichier signup.php pour créer un nouveau compte.
 
 2. Une fois connecté, accédez au fichier chat.php pour accéder à la page de chat. Vous pouvez envoyer des messages en tapant du texte dans la zone de texte et en appuyant sur le bouton "Envoyer".
 
