@@ -1,3 +1,27 @@
 Ce projet est un mini chat en PHP avec une interface utilisateur simple et des fonctionnalités de connexion, inscription et envoi de messages. 
 Les utilisateurs peuvent se connecter à l'aide de leurs identifiants ou s'inscrire pour créer un nouveau compte. 
 Une fois connecté, l'utilisateur peut envoyer des messages et consulter l'historique des messages précédents.
+
+PREREQUIS :
+
+PHP 7.0 ou supérieur
+MySQL 5.7 ou supérieur
+Serveur Web Apache 
+
+INSTALATION :
+
+1. Cloner le repository :
+git clone https://github.com/k-chanez/Mini-Chat
+
+2. Créer une base de données MySQL avec un nom de votre choix.
+3. Configurer les informations de connexion à la base de données dans le fichier config.php
+4. Placer les fichiers du projet dans le répertoire racine de votre serveur Web.
+
+Utilisation : 
+
+1. Accédez au fichier login.php pour accéder à la page de connexion. Si vous n'avez pas encore de compte, accédez au fichier register.php pour créer un nouveau compte.
+
+2. Une fois connecté, accédez au fichier chat.php pour accéder à la page de chat. Vous pouvez envoyer des messages en tapant du texte dans la zone de texte et en appuyant sur le bouton "Envoyer".
+
+3. Les messages précédents s'affichent en dessous de la zone de texte. Vous pouvez supprimer vos propres messages en cliquant sur le bouton "Supprimer" à côté du message.
+
